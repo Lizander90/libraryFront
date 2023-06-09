@@ -1,6 +1,7 @@
 
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-const API_URL = import.meta.env.VITE_BOOKS_API;
+import { setupListeners } from '@reduxjs/toolkit/query'
+const API_URL = import.meta.env.VITE_BOOKS_API || 'https://anapioficeandfire.com/api/';
 
 // Define a service using a base URL and expected endpoints
 export const booksApi = createApi({

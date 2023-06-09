@@ -1,3 +1,43 @@
+V1:
+Implementacion y maquetacion de la aplicación librery.
+
+Instalacion en el repositorio:
+npm install
+npm run dev
+
+Funcionalidades:
+Muestra lista de Libros consumidos de la API publica https://anapioficeandfire.com/api/books/.
+- UI/UX adicionar libro a la API.
+- Filtros de busqueda rápida.
+
+Recursos Utilizados:
+
+- Tailwind
+- reduxjs/toolkit
+*- RTK query
+- react-router-dom
+- sass
+- sweetalert2
+
+Practicas de desarrollo:
+
+- Clean Arquitecture
+- Atomic Design
+- Render props. 
+- Clen code.
+
+
+V2:
+- Integrar modulo de asistencia IA (donde puedes hacer preguntas a la IA referente al tema)
+- Adicion de libros a un backend
+- Funcionalidades de ordenamiento
+
+
+
+
+
+
+
 Prueba técnica — React developer
 Grupo Aspasia
 
